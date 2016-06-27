@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.formFields {
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    margin: 0.4rem;
+    width: 62%;
+    display: inline-block;
+}
+
+.labels {
+    width: 35%;
+    display: inline-block;
+    /* height: 2rem; */
+}
+
+.addContactForm {
+    background-color: #e6e6e6;
+}
+
+.addContactForm {
+    display: none;
+}
